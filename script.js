@@ -148,11 +148,14 @@ var generateBtn = document.querySelector('#generate');
 // Write password to the #password input
 function writePassword() {
    var correctPrompts = getPrompts();
-   if(correctPrompts){
+   if(correctPrompts && choices.length  > 0){
+
   var password = generatePassword();
   var passwordText = document.querySelector('#password');
 
   passwordText.value = password;
+   }else{
+    alert("You need to pick one character");
    }
 }
 
