@@ -112,8 +112,8 @@ function getRandom(arr) {
 function generatePassword() {
   var password = "";
   for(var i = 0; i < characterLength; i++){
-    var randomcharcter = Math.floor(Math.random() * choices.length);
-    password = password + choices[randomcharcter];
+    var randomcharacter = Math.floor(Math.random() * choices.length);
+    password = password + choices[randomcharacter];
   }
   return password
 } 
@@ -122,7 +122,7 @@ function generatePassword() {
 
 function getPrompts(){
 
-    characterLength = parseInt(prompt("How many character do you want your password, choose between 10 and 64"));
+    characterLength = parseInt(prompt("How many characters do you want your password, choose between 10 and 64 characters"));
     if (isNaN(characterLength) || characterLength < 10 || characterLength > 64){
        alert("Character Length must be at least 10 characters but not more than 64");
        return false;
@@ -130,13 +130,13 @@ function getPrompts(){
     if (confirm("Will this contain numbers?")) {
       choices = choices.concat(numericCharacters);
     }
-    if (confirm("Will this contain lowercase leters")){
+    if (confirm("Will this contain lowercase leters?")){
       choices = choices.concat(lowerCasedCharacters);
     }
-    if (confirm("Will this contain uppercase letters")){
+    if (confirm("Will this contain uppercase letters?")){
       choices = choices.concat(upperCasedCharacters);
     }
-    if (confirm("Will this contain special characters")){
+    if (confirm("Will this contain special characters?")){
       choices = choices.concat(specialCharacters);
     }
     return true;
