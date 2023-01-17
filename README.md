@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the password generator. I created the password generator that an employee can use to generate a random password. It was created using Html, CSS and JavaScript (dynamic/interactive). When the button is clicked, it will prompt the user to select the length of the password, which must be at least ten characters but not more than sixty four. 
+This is the password generator. I created the password generator that an employee can use to generate a random password. It was created using Html, CSS and JavaScript (dynamic/interactive). When the button is clicked, it will prompts the user to select the length of the password, which must be at least ten characters but not more than sixty four. 
 
 When this is done, it will continue to prompt the user to select whether the user will want numbers, lowercase, uppercase or special character in the password.
  
@@ -13,7 +13,7 @@ When this is done, it will continue to prompt the user to select whether the use
 
 ## Usage
 
-This password generator generates a random password when the button is clicked. It will prompt the user to choose the lenght of the password which must be at least ten characters but not more than sixty four, if the characters are less than ten or more than sixty four, it will return false and it will ask the user to select between 10 and 64 characters.
+This password generator generates a random password when the button is clicked. It will prompts the user to choose the lenght of the password which must be at least ten characters but not more than sixty four, if the characters are less than ten or more than sixty four, it will return false and it will ask the user to select between 10 and 64 characters.
 
 If it is confirm that the characters were at least ten and not more than sixty four, it will prompt the user to choose whether they would like numbers included in the password. If the user confirm that they want numbers included, it will prompt the user to choose if they want lowercased letters included. If they confirm that, the passsword generator will prompt the user to choose if they want uppercased letters included, if confirm, it will prompt the user to choose if they would want special characters included.
 
