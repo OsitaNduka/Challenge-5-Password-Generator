@@ -41,7 +41,9 @@ Please refer to the license in the repo.
 
 ## Screenshot
 
-![Password Generator Screenshort](C:\Users\USER\bootcamp\Challenge-5-Password-Generator\Password Generator.PNG)
+![Password Generator Screenshort](../Challenge-5-Password-Generator/Password%20Generator.PNG)
+
+
 
 
 
